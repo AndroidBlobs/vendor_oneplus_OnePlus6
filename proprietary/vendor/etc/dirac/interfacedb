@@ -1,0 +1,23 @@
+<InterfaceDb>
+  <Usecases>
+    <Usecase name="USECASE_INTERNAL_POWERSOUND">
+      <Parameters>
+        <Parameter id="3" name="Tonal Balance" defaultValue="0"/>
+      </Parameters>
+      <Modes>
+        <Mode name="Area0">
+          <Parameter id="3" value="0"/>
+        </Mode>
+        <Mode name="Area1">
+          <Parameter id="3" value="1"/>
+        </Mode>
+      </Modes>
+    </Usecase>
+    <Usecase name="USECASE_EXTERNAL_HEADSET">
+      <Parameters>
+        <Parameter id="4" name="Loudness" defaultValue="0"/>
+      </Parameters>
+      <Modes/>
+    </Usecase>
+  </Usecases>
+</InterfaceDb>
